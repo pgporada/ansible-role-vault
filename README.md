@@ -9,7 +9,7 @@ One less thing for me to have to go out to the internet to grab when setting up 
 - - - -
 # Role Variables
 
-Installs the specified version of [Hashicorp_Vault](https://vault.io).
+Installs the specified version of [Hashicorp Vault](https://vaultproject.io).
 
     vault_version: 0.7.3
 

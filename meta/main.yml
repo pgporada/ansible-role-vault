@@ -1,0 +1,29 @@
+---
+galaxy_info:
+  author: Phil Porada
+  description: Installs Vault
+  company: MITallGuy
+  min_ansible_version: 2.3
+  license: GPLv3
+  platforms:
+    - name: EL
+      versions:
+        - 6
+        - 7
+    - name: Debian
+      versions:
+        - jessie
+        - wheezy
+        - sid
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+  categories:
+    - vault
+    - security
+    - pki
+    - hashicorp
+
+dependencies: []
+...

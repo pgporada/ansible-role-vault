@@ -4,7 +4,7 @@
   become: true
   become_method: sudo
   vars:
-    vault_version: 0.7.3
+    vault_version: 0.11.4
   roles:
     - ../ansible-role-vault
 ...

@@ -1,6 +1,6 @@
 ![pgporada.vault](https://img.shields.io/badge/role-pgporada.vault-yellow.svg)
 [![License](https://img.shields.io/badge/license-GPLv3-brightgreen.svg)](LICENSE)
-[![](https://img.shields.io/badge/Supports%20Vault%20Version-0.7.3-blue.svg)](https://github.com/hashicorp/vault/blob/v0.7.3/CHANGELOG.md)
+[![](https://img.shields.io/badge/Supports%20Vault%20Version-0.11.4-blue.svg)](https://github.com/hashicorp/vault/blob/v0.11.4/CHANGELOG.md)
 
 # Overview: pgporada.vault
 
@@ -11,7 +11,7 @@ One less thing for me to have to go out to the internet to grab when setting up 
 
 Installs the specified version of [Hashicorp Vault](https://vaultproject.io).
 
-    vault_version: 0.7.3
+    vault_version: 0.11.4
 
 - - - -
 # Example Playbook

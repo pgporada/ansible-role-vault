@@ -16,7 +16,7 @@ if [ $# -ne 1 ]; then
 fi
 
 echo "+) Updating occurrences of vault_version"
-find . -type f -not -path "*.git/*" -exec sed -i "s|vault_version: [[:digit:]]\+\.[[:digit:]]\+\.[[:digit:]]\+|vault_version: ${VERSION}|g" {} \;
+find . -type f -not -path "*.git/*" -exec sed -i "s|Vault v[[:digit:]]\+\.[[:digit:]]\+\.[[:digit:]]\+|Vault v${VERSION}|g" {} \;
 
 echo "+) Updating the badge in the README.md"
 sed -i "/img.shields.io\/badge\/Supports/c\[\![](https://img.shields.io/badge/Supports%20Vault%20Version-${VERSION}-blue.svg)](https://github.com/hashicorp/vault/blob/v${VERSION}/CHANGELOG.md)" README.md

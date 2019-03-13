@@ -6,7 +6,7 @@
 }
 
 @test "vault is the version specified" {
-    if [ "$(vault -version | awk '{print $1" "$2}')" == "Vault v0.11.4" ]; then
+    if [ "$(vault -version | awk '{print $1" "$2}')" == "Vault v1.0.3" ]; then
         status=0
     else
         status=1
